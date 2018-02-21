@@ -1,0 +1,74 @@
+{
+  "airports": [
+    {
+      "airport": {
+        "code": "CUR",
+        "name": "Aeropuerto Hato",
+        "city": {
+          "code": "CUR",
+          "name": "Curacao"
+        }
+      }
+    },
+    {
+      "airport": {
+        "code": "CWL",
+        "name": "Cardiff-Wales Airport",
+        "city": {
+          "code": "CWL",
+          "name": "Cardiff"
+        }
+      }
+    },
+    {
+      "airport": {
+        "code": "DAR",
+        "name": "DAR",
+        "city": {
+          "code": "DAR",
+          "name": "Dar Es Salaam"
+        }
+      }
+    },
+    {
+      "airport": {
+        "code": "DEL",
+        "name": "Indira Gandhi International",
+        "city": {
+          "code": "DEL",
+          "name": "Delhi"
+        }
+      }
+    },
+    {
+      "airport": {
+        "code": "DMM",
+        "name": "King Fahad International",
+        "city": {
+          "code": "DMM",
+          "name": "Dammam"
+        }
+      }
+    },
+    {
+      "airport": {
+        "code": "DPS",
+        "name": "Denpasar",
+        "city": {
+          "code": "DPS",
+          "name": "Denpasar"
+        }
+      }
+    },
+    {
+      "airport": {
+        "code": "DRS",
+        "name": "Dresden Airport",
+        "city": {
+          "code": "DRS",
+          "name": "Dresden"
+        }
+      }
+    }
+  ]
+}
