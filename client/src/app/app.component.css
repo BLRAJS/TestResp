@@ -1,0 +1,38 @@
+.menu_simple {
+    width: 100%;
+}
+
+.menu_simple ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu_simple ul li {
+    display: inline;
+}
+
+.menu_simple ul li a small {
+    font-size: 11px;
+}
+
+.menu_simple ul li a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: #1089ab;
+    width: 45%;
+    display: inline-block;
+    padding: 2%;
+    font-family: arial;
+    font-size: 19px;
+}
+
+.menu_simple ul li a:visited {
+    color: white;
+}
+
+.menu_simple ul li a:hover,
+.menu_simple ul li .current {
+    color: white;
+    background-color: #5FD367;
+}

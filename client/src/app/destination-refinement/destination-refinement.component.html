@@ -1,0 +1,27 @@
+<h2 class="stitle">{{step1}}</h2>
+<form class="form-inline">
+    <div class="form-group">
+        <input type="search" class="form-control sinput" placeholder="Enter city destination" [formControl]="searchField">
+    </div>
+</form>
+
+<div class="text-center">
+    <p class="lead" *ngIf="loading">Loading...</p>
+</div>
+
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let res of results | async | slice:0:3; let i=index">
+        <div (click)="buttonactive(res) ">
+            <a> <strong>{{res.airport.city.name}}</strong> - {{ res.airport.name }}</a>
+        </div>
+    </li>
+</ul>
+
+
+<div *ngIf="results| async as user;else other_content">
+    <h2 class="stitle">{{step2}}</h2>
+    <button (click)="sendTo() " [disabled]="buttonStatus ">Continue</button>
+</div>
+
+<ng-template #other_content>
+</ng-template>

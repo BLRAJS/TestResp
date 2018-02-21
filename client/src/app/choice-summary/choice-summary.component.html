@@ -1,0 +1,11 @@
+<div class="container" *ngIf="result;else other_content">
+    <li><strong>City Code</strong> : {{result.airport.city.code}}</li>
+    <li><strong>City Name</strong> : {{result.airport.city.name}}</li>
+    <li><strong>Airport Code</strong> : {{result.airport.code}}</li>
+    <li><strong>Airport Name</strong> : {{result.airport.name}} </li>
+</div>
+
+<ng-template #other_content>
+    <h3> Sorry .. you didnt selected anything .. go back and select your favorite city to travel
+    </h3>
+</ng-template>
